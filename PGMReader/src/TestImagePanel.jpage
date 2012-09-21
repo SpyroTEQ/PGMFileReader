@@ -1,0 +1,3 @@
+BufferedImage myPicture = ImageIO.read(new File("path-to-file"));
+JLabel picLabel = new JLabel(new ImageIcon( myPicture ));
+add( picLabel );
